@@ -1919,6 +1919,22 @@ body {
   right: 10px;
 }
 
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+.basic-container {
+  padding: 30px;
+}
+
+.version-info {
+  font-size: 8pt;
+  float: right;
+}
+
 .dropdown-menu:before {
   display: inline-block;
   position: absolute;
@@ -3193,11 +3209,6 @@ img {
   margin-top: 30px;
 }
 
-.profile-page {
-  background-image:
-  url("https://amymhaddad.s3.amazonaws.com/oriental-tiles.png");
-}
-
 .profile-page .description,
 .profile-page .category {
   text-align: center;
@@ -3241,6 +3252,11 @@ img {
 .profile-page .gallery {
   margin-top: 45px;
   padding-bottom: 50px;
+}
+
+.profile-page {
+  background-image:
+  url("assets/images/sr-bg.png");
 }
 
 .section {
@@ -5188,3 +5204,9 @@ margin-left: 0px;
   margin-top: 5px;
 }
 
+.bgImgCenter {
+  background-image: url('assets/images/sr-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
